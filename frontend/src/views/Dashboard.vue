@@ -3,7 +3,7 @@
 import ClockWidget from "@/components/Widgets/ClockWidget.vue";
 import CountdownWidget from "@/components/Widgets/CountdownWidget.vue";
 import AddWidgetModal from "@/components/Widgets/AddWidgetModal.vue";
-import {colorScheme} from "@/services/color-scheme.ts";
+import {colorScheme} from "@/services/color-scheme";
 import {onMounted, onBeforeUnmount, ref, watch, computed} from "vue";
 import AlertModal from '@/components/Basic/AlertModal.vue';
 import draggable from "vuedraggable";
